@@ -7,7 +7,7 @@ app.use(express.json())
 app.use('/',route)
 
 
-mongoose.connect("mongodb+srv://sonuk:kamble123@cluster0.vfrmzq9.mongodb.net/gadgets-DB").
+mongoose.connect("mongodb+srv://sonuk:kamble123@cluster0.vfrmzq9.mongodb.net/Innobyte-DB").
 then (()=>console.log('Mongob is connected'))
 
 app.listen(process.env.PORT || 3000,function(){
