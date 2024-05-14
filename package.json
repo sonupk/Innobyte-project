@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/sonupk/Innobyte-project#readme",
   "dependencies": {
+    "express": "^4.19.2",
     "mongoose": "^8.3.4"
   }
 }
